@@ -1,7 +1,7 @@
 // 1. 載入 mysql2 套件
 const mysql = require('mysql2');
 // 2. 載入我們剛剛寫的連線設定
-const dbConfig = require('./db-config');
+const dbConfig = require('../db-config');
 
 // 3. 建立連線
 // mysql.createConnection() 會建立一個連線物件
